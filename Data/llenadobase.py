@@ -307,8 +307,8 @@ def creacion_shots(cursor, connection, archivo_csv):
 try:
     connection=psycopg2.connect(
         host = 'localhost',
-        user = 'postgres',
-        password = 'medueleperomeex1tA',
+        user = 'miusuario',
+        password = 'micontraseña',
         database = 'proyecto1'
     )
     
